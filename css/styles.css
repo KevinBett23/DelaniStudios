@@ -1,5 +1,5 @@
 .header-section {
-  background-image: url("h_img.jpg");
+  background-image: url("../assets/background/h_img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -22,7 +22,7 @@
   margin-bottom: 4%;
 }
 #Services {
-  background-image: url("s_image.jpg");
+  background-image: url("../assets/background/s_image.jpg");
   background-size: cover;
   text-align: center;
   background-position: center;
@@ -75,7 +75,7 @@
 #product p {
   display: none;
 }
-#pf {
+#portf {
   text-align: center;
   margin-top: 5%;
 }
@@ -88,40 +88,40 @@
 .col-md-3:hover {
   opacity: 0.5;
 }
-.col-md-3 #p1 {
+.col-md-3 #c1 {
   display: none;
   color: orangered;
 }
-.col-md-3 #p2 {
+.col-md-3 #c2 {
   display: none;
   color: orangered;
 }
-.col-md-3 #p3 {
+.col-md-3 #c3 {
   display: none;
   color: orangered;
 }
-.col-md-3 #p4 {
+.col-md-3 #c4 {
   display: none;
   color: orangered;
 }
-.col-md-3 #p5 {
+.col-md-3 #c5 {
   display: none;
   color: orangered;
 }
-.col-md-3 #p6 {
+.col-md-3 #c6 {
   display: none;
   color: orangered;
 }
-.col-md-3 #p7 {
+.col-md-3 #c7 {
   display: none;
   color: orangered;
 }
-.col-md-3 #p8 {
+.col-md-3 #c8 {
   display: none;
   color: orangered;
 }
 #contact {
-  background-image: ("c_image.jpg");
+  background-image: url("../assets/background/c_image\ \(1\).jpg");
   background-size: cover;
   text-align: center;
   background-position: center;
