@@ -1,21 +1,20 @@
-$(document).ready(function() {
+(document).ready(function() {
   $("#contacts form").submit(function(event) {
-    var fullname = $("input#name").val();
+    var fullName = $("input#name").val();
     var email = $("input#mail").val();
     var text = $("textarea#textarea").val();
 
-    $(".name").text(fullname);
+    $(".name").text(fullName);
     $(".mail").text(email);
     $(".text").text(text);
-    
-    
-    if (fullname == "" || email == "") {
+
+    if (fullName == "" || email == "") {
       alert("Please fill in all your details");
     } else if (text == "") {
       alert("Kindly write a message");
     } else {
       alert(
-        fullname +
+        fullName +
           " we have received your message. Thank you for reaching out to us."
       );
     }
