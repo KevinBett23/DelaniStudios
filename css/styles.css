@@ -1,12 +1,5 @@
-@import url("bootstrap.css");
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .header-section {
-  background-image: url("../images/backgrounds/h_img.jpg");
+  background-image: url("h_img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -29,7 +22,7 @@
   margin-bottom: 4%;
 }
 #Services {
-  background-image: url("../images/backgrounds/s_image.jpg");
+  background-image: url("s_image.jpg");
   background-size: cover;
   text-align: center;
   background-position: center;
@@ -128,7 +121,7 @@
   color: orangered;
 }
 #contact {
-  background-image: url("../images/backgrounds/c_image.jpg");
+  background-image: ("c_image.jpg");
   background-size: cover;
   text-align: center;
   background-position: center;
